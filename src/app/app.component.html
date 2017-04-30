@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<h1>NodeTodo</h1>
+<ul>
+  <li *ngFor="let todo of todos">
+    {{todo.todo}} - {{todo.isDone}} - done - delete
+  </li>
+</ul>

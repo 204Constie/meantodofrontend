@@ -1,0 +1,24 @@
+<h1>
+  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+</h1>
+
+<div class="addtodo">
+  <input class="addtodo__item" type="text" placeholder="task" (keyup)="taskInput($event)">
+  <button class="addtodo__item" style="margin-top: 2%;" type="button" (click)="addTodo()">add task</button>
+
+  <ul class="addtodo__item thelist">
+    <li *ngFor="let fakeTodo of fakeTodos" class="listline">
+      <p class="listline__item truncate">
+        {{fakeTodo.todo}}
+      </p>
+      <p class="listline__item buttons">
+        <button type="button" style="float: right;" (click)="deleteTodo(fakeTodo)">delete</button>
+      </p>
+      <div class="listline__item checkdone">
+        <span *ngIf="fakeTodo.isDone"><i class="fa fa-check" aria-hidden="true"></i></span><span *ngIf="!fakeTodo.isDone"><i class="fa fa-times" aria-hidden="true"></i></span>
+      </div>
+    </li>
+  </ul>
+
+  <button class="addtodo__item" type="button" (click)="submitTodos()">submit</button>
+</div>
