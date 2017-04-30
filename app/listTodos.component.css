@@ -1,10 +1,46 @@
 body {
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
+  /*font-family: "Gill Sans", Calibri, sans-serif;*/
+
+  background-image: url('http://www.clipartkid.com/images/193/post-it-notes-clipart-clipart-panda-free-clipart-images-K2o9Hl-clipart.png');
+  background-size: cover;
+
+  height: 100vh;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+button {
+  display: inline-block;
+  font-family: "Bitter",serif;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+
+  /*color: #fff;*/
+  color: #2d2c29;
+  background-color: #f4d67a;
+  /*text-shadow: -1px 1px #42381a;*/
+  border: none;
+}
+
+button:focus {
+  outline: none
+}
+
+button:hover,
+button.hover {
+  background-color: #ed4809;
+  /*text-shadow: -1px 1px #381e14;*/
+}
+
+button:active,
+button.active {
+  background-color: #f4a913;
+  /*text-shadow: -1px 1px #4f4021;*/
 }
 
 /*input[type="text"] {
@@ -30,10 +66,12 @@ input[type="text"].focus {
 }
 
 .wrapper {
-  background-image: url('http://www.clipartkid.com/images/193/post-it-notes-clipart-clipart-panda-free-clipart-images-K2o9Hl-clipart.png');
-  background-size: cover;
+  /*background-image: url('http://www.clipartkid.com/images/193/post-it-notes-clipart-clipart-panda-free-clipart-images-K2o9Hl-clipart.png');
+  background-size: cover;*/
 
-  height: 100vh;
+  font-family: "Gill Sans", Calibri, sans-serif;
+
+  /*height: 100vh;*/
 
 }
 
