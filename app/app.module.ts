@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AddComponent } from './addTodo.component';
 import { ListComponent } from './listTodos.component';
 import { TodoComponent } from './todo.component';
+import { UploadComponent } from './uploadFile.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     AddComponent,
     ListComponent,
-    TodoComponent
+    TodoComponent,
+    UploadComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,7 @@ export class TodoService {
   private todosApiUrl = '/api/todos/test';
   private updateTodoUrl = '/api/todo';
   private getTodoUrl = '/api/todo/';
+  private fileuploadUrl = '/api/file-upload';
 
   constructor(private http: Http) { }
 

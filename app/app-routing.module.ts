@@ -4,12 +4,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { AddComponent } from './addTodo.component';
 import { ListComponent } from './listTodos.component';
 import { TodoComponent } from './todo.component';
+import { UploadComponent } from './uploadFile.component';
 
 
 const appRoutes: Routes = [
   {path: '', component: ListComponent},
   {path: 'addtodo', component: AddComponent},
-  {path: 'todo/:id', component: TodoComponent}
+  {path: 'todo/:id', component: TodoComponent},
+  {path: 'upload', component: UploadComponent}
 ];
 
 // import { RecipesComponent } from './recipes/recipes.component';

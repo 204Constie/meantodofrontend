@@ -11,10 +11,12 @@ var router_1 = require("@angular/router");
 var addTodo_component_1 = require("./addTodo.component");
 var listTodos_component_1 = require("./listTodos.component");
 var todo_component_1 = require("./todo.component");
+var uploadFile_component_1 = require("./uploadFile.component");
 var appRoutes = [
     { path: '', component: listTodos_component_1.ListComponent },
     { path: 'addtodo', component: addTodo_component_1.AddComponent },
-    { path: 'todo/:id', component: todo_component_1.TodoComponent }
+    { path: 'todo/:id', component: todo_component_1.TodoComponent },
+    { path: 'upload', component: uploadFile_component_1.UploadComponent }
 ];
 // import { RecipesComponent } from './recipes/recipes.component';
 // import { ShoppingListComponent } from './shopping-list/shopping-list.component';

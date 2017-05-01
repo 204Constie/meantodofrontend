@@ -58,4 +58,8 @@ export class ListComponent implements OnInit {
     this.router.navigate(['addtodo']);
   }
 
+  uploadFile(){
+    this.router.navigate(['upload']);
+  }
+
 }

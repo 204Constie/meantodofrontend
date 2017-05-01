@@ -192,3 +192,8 @@ input[type="text"].focus {
 .addtodo__item {
   flex: 1;
 }
+
+.logoimage {
+  max-width: 10vw;
+  max-height: 10vh;
+}

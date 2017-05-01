@@ -20,6 +20,7 @@ var TodoService = (function () {
         this.todosApiUrl = '/api/todos/test';
         this.updateTodoUrl = '/api/todo';
         this.getTodoUrl = '/api/todo/';
+        this.fileuploadUrl = '/api/file-upload';
     }
     // getiTodos(): Promise<Todo[]> {
     //   return this.http.get(this.todosApiUrl)

@@ -49,6 +49,9 @@ var ListComponent = (function () {
     ListComponent.prototype.addTodo = function () {
         this.router.navigate(['addtodo']);
     };
+    ListComponent.prototype.uploadFile = function () {
+        this.router.navigate(['upload']);
+    };
     return ListComponent;
 }());
 ListComponent = __decorate([

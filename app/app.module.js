@@ -14,6 +14,7 @@ var app_component_1 = require("./app.component");
 var addTodo_component_1 = require("./addTodo.component");
 var listTodos_component_1 = require("./listTodos.component");
 var todo_component_1 = require("./todo.component");
+var uploadFile_component_1 = require("./uploadFile.component");
 var app_routing_module_1 = require("./app-routing.module");
 var AppModule = (function () {
     function AppModule() {
@@ -26,7 +27,8 @@ AppModule = __decorate([
             app_component_1.AppComponent,
             addTodo_component_1.AddComponent,
             listTodos_component_1.ListComponent,
-            todo_component_1.TodoComponent
+            todo_component_1.TodoComponent,
+            uploadFile_component_1.UploadComponent
         ],
         imports: [
             platform_browser_1.BrowserModule,
